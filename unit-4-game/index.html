@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Crystal Collector Game</title>
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="device-width, initial scale=1"> -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class= "headContainer">
+        <h1>Crystal Collector</h1>
+    </div>
+    <div class= "mainContainer">
+        <p>At the start of the game, a random number will be given.</p>
+            
+        <p>There are four crystals below. Each crystal has a value. Incriment your score by the value of a crystal by clicking the respective crystal.</p>
+
+        <p>You win by mathcing your score to the given number. You lose if your score goes over the given number.</p>
+
+        <p>The value of the crystals are unknown by the player until they are clicked </p>
+
+        <p>When a new game starts the values of the crystals are re-randomized</p>
+    </div>
+
+    <div class= "row">
+        <div id="cpuContainer"></div>
+        <div id="winLoss">
+            <div id = "WINS"> 
+                <p>Wins: 0</p>
+            </div>
+            <div id = "LOSSES">
+                <p>Losses: 0</p>
+            </div>
+        </div>
+    </div>
+    <div id="crystals" class= "row">
+        <div id= gem1>
+            <img src= "assets/images/363803.png" alt= "first gem" class="gem">
+        </div>
+        <div id= gem2>
+            <img src= "assets/images/363844.png" alt= "second gem" class="gem">
+        </div>
+        <div id= gem3>
+            <img src= "assets/images/363853.png" alt= "third gem" class="gem">
+        </div>
+        <div id= gem4>
+            <img src= "assets/images/363864.png" alt= "fourth gem" class="gem">   
+        </div>
+    </div>
+    <div class="userContainer">
+        <h4>Your total score is:</h4>
+        <div id="yourScore"></div>
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+body{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.headContainer{
+    width: 350px;
+    height: 60px;
+    background-color: darkorchid;
+    margin-top: 5px;
+    padding-left: 15px;
+}
+
+#cpuContainer{
+    background-color: pink;
+    height: 100px;
+    width: 200px;
+    margin-left: 15px;
+    padding-left: 15px;
+}
+
+#winLoss{
+    background-color: violet;
+    height: 100px;
+    width: 90px;
+    margin-left: 10px;
+    padding-left: 15px;
+
+}
+
+.gem{
+    width: 60px;
+    margin: 10px;
+}
+
+.userContainer{
+    width: 285px;
+}
+
+h4{
+    background-color: aqua;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+#yourScore{
+    background-color: aqua;
+    height: 60px;
+    padding-left: 15px;
+}
